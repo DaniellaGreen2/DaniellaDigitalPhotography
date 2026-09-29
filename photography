@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Daniella Digital Photography</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      background: #ffffff;
+      color: #222;
+      text-align: center;
+    }
+
+    header {
+      padding: 2rem 1rem;
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+
+    nav {
+      margin-top: 1rem;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      font-size: 1.1rem;
+      color: #333;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: #000;
+    }
+
+    footer {
+      margin-top: 4rem;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+
+<body>
+  <header>Daniella Digital Photography</header>
+
+  <nav>
+    <a href="#portfolio">DDP Portfolio</a>
+    <a href="#about">About</a>
+    <a href="#albums">Albums</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <footer>
+    © 2022 by Daniella Murphy
+  </footer>
+</body>
+</html>
