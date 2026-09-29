@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Daniella Digital Photography</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #222222;
+      --accent: #000000;
+      --muted: #777777;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    header {
+      padding: 2rem 1.5rem 1rem;
+      text-align: center;
+      border-bottom: 1px solid #eee;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    header p {
+      margin: 0.5rem 0 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    nav {
+      margin-top: 1rem;
+    }
+
+    nav a {
+      margin: 0 0.75rem;
+      text-decoration: none;
+      font-size: 0.95rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--text);
+    }
+
+    nav a:hover {
+      color: var(--accent);
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 2rem auto 3rem;
+      padding: 0 1.5rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    section h2 {
+      font-size: 1.4rem;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    section p {
+      line-height: 1.6;
+      max-width: 700px;
+      margin: 0.5rem auto;
+      text-align: center;
+    }
+
+    /* Portfolio / Albums grid */
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 1.5rem;
+    }
+
+    .grid-item {
+      width: 260px;
+      text-align: center;
+    }
+
+    .grid-item img {
+      width: 100%;
+      display: block;
+      border-radius: 6px;
+    }
+
+    .grid-item span {
+      display: block;
+      margin-top: 0.5rem;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    /* Contact */
+    .contact-info {
+      text-align: center;
+      font-size: 0.95rem;
+    }
+
+    .contact-info a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem 1rem;
+      font-size: 0.85rem;
+      color: var(--muted);
+      border-top: 1px solid #eee;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.7rem;
+      }
+      nav a {
+        display: inline-block;
+        margin: 0.25rem 0.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Daniella Digital Photography</h1>
+    <p>Capturing moments, light, and emotion through a minimalist lens.</p>
+
+    <nav>
+      <a href="#portfolio">DDP Portfolio</a>
+      <a href="#about">About</a>
+      <a href="#albums">Albums</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Portfolio / Home -->
+    <section id="portfolio">
+      <h2>DDP Portfolio</h2>
+      <p>
+        Welcome to my digital photography portfolio. This space is a curated selection of my favorite
+        images—portraits, landscapes, and candid moments that tell stories through light and composition.
+      </p>
+
+      <div class="grid">
+        <!-- Replace src values with your real image paths -->
+        <div class="grid-item">
+          <img src="images/portfolio1.jpg" alt="Featured photograph 1">
+          <span>Featured Work 01</span>
+        </div>
+        <div class="grid-item">
+          <img src="images/portfolio2.jpg" alt="Featured photograph 2">
+          <span>Featured Work 02</span>
+        </div>
+        <div class="grid-item">
+          <img src="images/portfolio3.jpg" alt="Featured photograph 3">
+          <span>Featured Work 03</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        I’m Daniella, a photographer who loves quiet details and honest moments. My work focuses on
+        natural light, simple compositions, and the feeling behind each frame. This site began as a
+        Wix project and has grown into a fully coded portfolio so I can share my work anywhere.
+      </p>
+    </section>
+
+    <!-- Albums -->
+    <section id="albums">
+      <h2>Albums</h2>
+      <p>
+        Here are a few collections of my work. Each album highlights a different mood, place, or story.
+        Swap these placeholders with your real galleries.
+      </p>
+
+      <div class="grid">
+        <div class="grid-item">
+          <img src="images/album-portraits.jpg" alt="Portraits album cover">
+          <span>Portraits</span>
+        </div>
+        <div class="grid-item">
+          <img src="images/album-landscapes.jpg" alt="Landscapes album cover">
+          <span>Landscapes</span>
+        </div>
+        <div class="grid-item">
+          <img src="images/album-city.jpg" alt="City album cover">
+          <span>City & Street</span>
+        </div>
+        <div class="grid-item">
+          <img src="images/album-blackwhite.jpg" alt="Black and white album cover">
+          <span>Black &amp; White</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="contact-info">
+        <p>
+          For bookings, collaborations, or questions, you can reach me at:
+        </p>
+        <p>
+          <a href="mailto:you@example.com">you@example.com</a>
+        </p>
+        <p>
+          Or connect via social media and portfolio links you add here.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Daniella Murphy · Daniella Digital Photography
+  </footer>
+</body>
+</html>
